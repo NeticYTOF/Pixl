@@ -136,13 +136,6 @@ export default async function RootLayout({
       </head>
       <body className="min-h-screen">
         {session && nav ? (
-          // <Shell
-          //   session={{ name: session.name, slackId: session.slackId }}
-          //   nav={nav}
-          //   reviewCount={reviewCount}
-          // >
-          //   {children}
-          // </Shell>
           <SidebarProvider>
             <Shell
               session={{ name: session.name, slackId: session.slackId }}

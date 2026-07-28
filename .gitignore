@@ -32,3 +32,15 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# Shard analysis / audit artifacts
+shard*-analysis.json
+shard*_analysis.json
+*_findings.json
+
+# Next.js output
+.next/
+
+# Turborepo cache and build logs
+.turbo/
+*.turbo-build.log
