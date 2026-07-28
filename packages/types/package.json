@@ -1,0 +1,10 @@
+{
+  "name": "@pixl/types",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}

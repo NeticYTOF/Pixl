@@ -108,6 +108,20 @@
         "typescript": "^5.7.2",
       },
     },
+    "packages/types": {
+      "name": "@pixl/types",
+      "version": "0.1.0",
+      "devDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "packages/utils": {
+      "name": "@pixl/utils",
+      "version": "0.1.0",
+      "devDependencies": {
+        "typescript": "^5",
+      },
+    },
   },
   "trustedDependencies": [
     "sharp",
@@ -445,6 +459,10 @@
     "@pixl/landing": ["@pixl/landing@workspace:apps/landing"],
 
     "@pixl/server": ["@pixl/server@workspace:apps/server"],
+
+    "@pixl/types": ["@pixl/types@workspace:packages/types"],
+
+    "@pixl/utils": ["@pixl/utils@workspace:packages/utils"],
 
     "@radix-ui/number": ["@radix-ui/number@1.1.2", "", {}, "sha512-ceTwaxc4I5IOi97DgCotl3pqiyRGvffcc0oOsE2dQYaJOFIDsDt4VWG6xEbg1QePv9QWausCEIppud/tJ1wNig=="],
 
